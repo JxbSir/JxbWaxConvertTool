@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D040E1911C57652700BE6FC7 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D040E1901C57652700BE6FC7 /* AppKit.framework */; };
+		D040E1931C57652700BE6FC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D040E1921C57652700BE6FC7 /* Foundation.framework */; };
+		D040E1971C57652700BE6FC7 /* JxbWaxConvertTool.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = D040E1961C57652700BE6FC7 /* JxbWaxConvertTool.xcscheme */; };
+		D040E19A1C57652700BE6FC7 /* JxbWaxConvertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D040E1991C57652700BE6FC7 /* JxbWaxConvertTool.m */; };
+		D040E19D1C57652700BE6FC7 /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D040E19C1C57652700BE6FC7 /* NSObject_Extension.m */; };
+		D040E1A71C5765F000BE6FC7 /* XBMainWC.m in Sources */ = {isa = PBXBuildFile; fileRef = D040E1A51C5765F000BE6FC7 /* XBMainWC.m */; };
+		D040E1A81C5765F000BE6FC7 /* XBMainWC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D040E1A61C5765F000BE6FC7 /* XBMainWC.xib */; };
+		D040E1AA1C57673B00BE6FC7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D040E1A91C57673B00BE6FC7 /* WebKit.framework */; };
+		D040E1AF1C5768D900BE6FC7 /* convert-util.js in Resources */ = {isa = PBXBuildFile; fileRef = D040E1AC1C5768D900BE6FC7 /* convert-util.js */; };
+		D040E1B01C5768D900BE6FC7 /* jquery-1.9.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = D040E1AD1C5768D900BE6FC7 /* jquery-1.9.1.min.js */; };
+		D040E1B11C5768D900BE6FC7 /* oc2lua.html in Resources */ = {isa = PBXBuildFile; fileRef = D040E1AE1C5768D900BE6FC7 /* oc2lua.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D040E18D1C57652700BE6FC7 /* JxbWaxConvertTool.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JxbWaxConvertTool.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		D040E1901C57652700BE6FC7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		D040E1921C57652700BE6FC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		D040E1961C57652700BE6FC7 /* JxbWaxConvertTool.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = JxbWaxConvertTool.xcscheme; path = JxbWaxConvertTool.xcodeproj/xcshareddata/xcschemes/JxbWaxConvertTool.xcscheme; sourceTree = SOURCE_ROOT; };
+		D040E1981C57652700BE6FC7 /* JxbWaxConvertTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JxbWaxConvertTool.h; sourceTree = "<group>"; };
+		D040E1991C57652700BE6FC7 /* JxbWaxConvertTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JxbWaxConvertTool.m; sourceTree = "<group>"; };
+		D040E19B1C57652700BE6FC7 /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		D040E19C1C57652700BE6FC7 /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+		D040E19E1C57652700BE6FC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D040E1A41C5765F000BE6FC7 /* XBMainWC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBMainWC.h; sourceTree = "<group>"; };
+		D040E1A51C5765F000BE6FC7 /* XBMainWC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBMainWC.m; sourceTree = "<group>"; };
+		D040E1A61C5765F000BE6FC7 /* XBMainWC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XBMainWC.xib; sourceTree = "<group>"; };
+		D040E1A91C57673B00BE6FC7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		D040E1AC1C5768D900BE6FC7 /* convert-util.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "convert-util.js"; sourceTree = "<group>"; };
+		D040E1AD1C5768D900BE6FC7 /* jquery-1.9.1.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-1.9.1.min.js"; sourceTree = "<group>"; };
+		D040E1AE1C5768D900BE6FC7 /* oc2lua.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = oc2lua.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D040E18B1C57652700BE6FC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D040E1AA1C57673B00BE6FC7 /* WebKit.framework in Frameworks */,
+				D040E1911C57652700BE6FC7 /* AppKit.framework in Frameworks */,
+				D040E1931C57652700BE6FC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D040E1841C57652700BE6FC7 = {
+			isa = PBXGroup;
+			children = (
+				D040E1941C57652700BE6FC7 /* JxbWaxConvertTool */,
+				D040E18F1C57652700BE6FC7 /* Frameworks */,
+				D040E18E1C57652700BE6FC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D040E18E1C57652700BE6FC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D040E18D1C57652700BE6FC7 /* JxbWaxConvertTool.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D040E18F1C57652700BE6FC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D040E1A91C57673B00BE6FC7 /* WebKit.framework */,
+				D040E1901C57652700BE6FC7 /* AppKit.framework */,
+				D040E1921C57652700BE6FC7 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D040E1941C57652700BE6FC7 /* JxbWaxConvertTool */ = {
+			isa = PBXGroup;
+			children = (
+				D040E1AB1C5768D900BE6FC7 /* oc2lua */,
+				D040E1A41C5765F000BE6FC7 /* XBMainWC.h */,
+				D040E1A51C5765F000BE6FC7 /* XBMainWC.m */,
+				D040E1A61C5765F000BE6FC7 /* XBMainWC.xib */,
+				D040E1981C57652700BE6FC7 /* JxbWaxConvertTool.h */,
+				D040E1991C57652700BE6FC7 /* JxbWaxConvertTool.m */,
+				D040E19B1C57652700BE6FC7 /* NSObject_Extension.h */,
+				D040E19C1C57652700BE6FC7 /* NSObject_Extension.m */,
+				D040E19E1C57652700BE6FC7 /* Info.plist */,
+				D040E1951C57652700BE6FC7 /* Supporting Files */,
+			);
+			path = JxbWaxConvertTool;
+			sourceTree = "<group>";
+		};
+		D040E1951C57652700BE6FC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D040E1961C57652700BE6FC7 /* JxbWaxConvertTool.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D040E1AB1C5768D900BE6FC7 /* oc2lua */ = {
+			isa = PBXGroup;
+			children = (
+				D040E1AC1C5768D900BE6FC7 /* convert-util.js */,
+				D040E1AD1C5768D900BE6FC7 /* jquery-1.9.1.min.js */,
+				D040E1AE1C5768D900BE6FC7 /* oc2lua.html */,
+			);
+			path = oc2lua;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D040E18C1C57652700BE6FC7 /* JxbWaxConvertTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D040E1A11C57652700BE6FC7 /* Build configuration list for PBXNativeTarget "JxbWaxConvertTool" */;
+			buildPhases = (
+				D040E1891C57652700BE6FC7 /* Sources */,
+				D040E18A1C57652700BE6FC7 /* Resources */,
+				D040E18B1C57652700BE6FC7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JxbWaxConvertTool;
+			productName = JxbWaxConvertTool;
+			productReference = D040E18D1C57652700BE6FC7 /* JxbWaxConvertTool.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D040E1851C57652700BE6FC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Peter;
+				TargetAttributes = {
+					D040E18C1C57652700BE6FC7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = D040E1881C57652700BE6FC7 /* Build configuration list for PBXProject "JxbWaxConvertTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D040E1841C57652700BE6FC7;
+			productRefGroup = D040E18E1C57652700BE6FC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D040E18C1C57652700BE6FC7 /* JxbWaxConvertTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D040E18A1C57652700BE6FC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D040E1B01C5768D900BE6FC7 /* jquery-1.9.1.min.js in Resources */,
+				D040E1AF1C5768D900BE6FC7 /* convert-util.js in Resources */,
+				D040E1B11C5768D900BE6FC7 /* oc2lua.html in Resources */,
+				D040E1A81C5765F000BE6FC7 /* XBMainWC.xib in Resources */,
+				D040E1971C57652700BE6FC7 /* JxbWaxConvertTool.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D040E1891C57652700BE6FC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D040E19A1C57652700BE6FC7 /* JxbWaxConvertTool.m in Sources */,
+				D040E1A71C5765F000BE6FC7 /* XBMainWC.m in Sources */,
+				D040E19D1C57652700BE6FC7 /* NSObject_Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D040E19F1C57652700BE6FC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		D040E1A01C57652700BE6FC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		D040E1A21C57652700BE6FC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = JxbWaxConvertTool/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = name.Jxb.JxbWaxConvertTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		D040E1A31C57652700BE6FC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = JxbWaxConvertTool/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = name.Jxb.JxbWaxConvertTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D040E1881C57652700BE6FC7 /* Build configuration list for PBXProject "JxbWaxConvertTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D040E19F1C57652700BE6FC7 /* Debug */,
+				D040E1A01C57652700BE6FC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D040E1A11C57652700BE6FC7 /* Build configuration list for PBXNativeTarget "JxbWaxConvertTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D040E1A21C57652700BE6FC7 /* Debug */,
+				D040E1A31C57652700BE6FC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D040E1851C57652700BE6FC7 /* Project object */;
+}
