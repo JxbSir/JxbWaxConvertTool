@@ -2,8 +2,8 @@
 //  JxbWaxConvertTool.h
 //  JxbWaxConvertTool
 //
-//  Created by Peter on 16/1/26.
-//  Copyright © 2016年 Peter. All rights reserved.
+//  Created by Peter Jin on https://github.com/JxbSir  16/1/126.
+//  Copyright (c) 2015年 Peter Jin .  Mail:i@Jxb.name All rights reserved.
 //
 
 #import <AppKit/AppKit.h>

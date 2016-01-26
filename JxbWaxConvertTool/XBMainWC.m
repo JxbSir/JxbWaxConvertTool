@@ -2,7 +2,7 @@
 //  XBMainWC.m
 //  JxbFirMan
 //
-//  Created by Peter Jin on https://github.com/JxbSir  15/5/18.
+//  Created by Peter Jin on https://github.com/JxbSir  16/1/126.
 //  Copyright (c) 2015年 Peter Jin .  Mail:i@Jxb.name All rights reserved.
 //
 
