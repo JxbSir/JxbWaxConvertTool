@@ -13,7 +13,10 @@ function alertError(errorSrc) {
                 errorLine++;
             }
         }
-    alert("Parse method error at line " + errorLine + ":" + errorSrc);
+//    alert("Parse method error at line " + errorLine + ":" + errorSrc);
+    var msg = "Parse method error at line " + errorLine + ":" + errorSrc;
+    window.external.alert(msg);
+    
 }
 
 function ConvertOC2LUA(ocCode) {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D027D3F81C604D98008A5EDB /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D027D3F71C604D98008A5EDB /* JavaScriptCore.framework */; };
 		D040E1911C57652700BE6FC7 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D040E1901C57652700BE6FC7 /* AppKit.framework */; };
 		D040E1931C57652700BE6FC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D040E1921C57652700BE6FC7 /* Foundation.framework */; };
 		D040E1971C57652700BE6FC7 /* JxbWaxConvertTool.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = D040E1961C57652700BE6FC7 /* JxbWaxConvertTool.xcscheme */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D027D3F71C604D98008A5EDB /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		D040E18D1C57652700BE6FC7 /* JxbWaxConvertTool.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JxbWaxConvertTool.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		D040E1901C57652700BE6FC7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		D040E1921C57652700BE6FC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D027D3F81C604D98008A5EDB /* JavaScriptCore.framework in Frameworks */,
 				D040E1AA1C57673B00BE6FC7 /* WebKit.framework in Frameworks */,
 				D040E1911C57652700BE6FC7 /* AppKit.framework in Frameworks */,
 				D040E1931C57652700BE6FC7 /* Foundation.framework in Frameworks */,
@@ -73,6 +76,7 @@
 		D040E18F1C57652700BE6FC7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D027D3F71C604D98008A5EDB /* JavaScriptCore.framework */,
 				D040E1A91C57673B00BE6FC7 /* WebKit.framework */,
 				D040E1901C57652700BE6FC7 /* AppKit.framework */,
 				D040E1921C57652700BE6FC7 /* Foundation.framework */,
@@ -317,6 +321,7 @@
 				D040E1A31C57652700BE6FC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
