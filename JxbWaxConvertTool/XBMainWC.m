@@ -23,7 +23,7 @@
 
 - (void)windowDidLoad {
     [super windowDidLoad];
-    NSBundle* bundle = [NSBundle bundleWithPath:@"/Users/Peter/Library/Application Support/Developer/Shared/Xcode/Plug-ins/JxbWaxConvertTool.xcplugin"];
+    NSBundle* bundle = [NSBundle bundleWithPath:@"~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/JxbWaxConvertTool.xcplugin"];
     NSURL* path = [bundle URLForResource:@"oc2lua" withExtension:@"html"];
     NSURLRequest *request =  [[NSURLRequest alloc] initWithURL:path];
     
